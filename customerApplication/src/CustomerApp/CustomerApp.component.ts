@@ -16,7 +16,7 @@ export class CustomerComponent {
   addCustomer(){
 
     this.CustomerModels.push(this.CustomerModel);
-    this.CustomerModel = new Customer();
+    this.CustomerModel = new Customer(); 
     
   }
 }
